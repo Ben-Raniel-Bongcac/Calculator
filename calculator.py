@@ -1,8 +1,8 @@
 #SCCM4910 lab project - a four-operation caclulator
-def add(a, b):
+def add(a,b):
     return a+b
 
-def subtract(a, b):
+def subtract(a,b):
     return a-b
 
 def multiply(a,b):
@@ -27,6 +27,12 @@ def main():
             print("Result:",divide(a,b))
         else:
             print("Unkown operator:",op)
+
+def CircleArea(r):
+    if r>=0:
+        return 3.14 * r * r
+    else:
+        return "NaN"
 
 
 if __name__=="__main__":
