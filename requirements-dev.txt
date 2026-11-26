@@ -1,2 +1,2 @@
-.vemv/
+.venv/
 .pytests_cache/
