@@ -1,2 +1,1 @@
-.venv/
-.pytests_cache/
+pytest==8.4.2
